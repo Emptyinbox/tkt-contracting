@@ -90,7 +90,7 @@ button{
   margin-bottom: 15px;
 }
 .showcase ul{
-  list-style: url("https://emptyinbox.github.io/tkt-contracting/img/checkmark.png");
+  /*list-style: url("https://emptyinbox.github.io/tkt-contracting/img/checkmark.png");*/
   padding-left: 15px;
   font-size: 1.2rem;
 }
