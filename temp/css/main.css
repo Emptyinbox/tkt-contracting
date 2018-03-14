@@ -1,0 +1,27 @@
+/* CSS Varibles */
+
+:root {
+  --primary: #ddd;
+  --dark: #262220;
+  --light: #f2eddc;
+  --shadow: 0 1px 5px #888;
+  --footcolor: #3d5e73
+}
+
+/* GLOBAL STYLES */
+
+
+/* Main-nav */
+.main-nav{
+  display:grid;
+  grid-template-columns: auto;
+}
+.main-nav > ul >li{
+  border: 1px solid;
+}
+
+/* maincontent */
+
+.showcase-block-1 > ul >li{
+  list-style: url('/img/checkmark.png');
+}
