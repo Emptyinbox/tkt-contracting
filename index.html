@@ -47,7 +47,7 @@
       </div>
       <!-- Side nav -->
       <ul class="side-nav" id="mobile-nav">
-        <h4 class="blue-grey darken-3 center">BizLand</h4>
+        <li><h4 class="blue-grey darken-3 center">BizLand</h4></li>
         <li>
           <a class="divider"></a>
         </li>
@@ -138,7 +138,7 @@
               <i class="material-icons left">check</i> Security Services
             </li>
             <li class="collection-item">
-              <i class="material-icons left">check</i> Marketing & Advertising
+              <i class="material-icons left">check</i> Marketing &amp; Advertising
             </li>
             <li class="collection-item">
               <i class="material-icons left">check</i> Internet Services
@@ -287,14 +287,14 @@
         {
           selector: '.main-text', offset: 0, callback: function (el) {
             Materialize.fadeInImage($(el));
-          }
+          },
         },
         {
           selector: '.navbar-fixed', offset: 1500, callback: function () {
             $('nav').removeClass('transparent');
             $('nav').addClass('blue-grey darken-3');
-          }
-        }
+          },
+        },
       ];
 
       Materialize.scrollFire(options);
@@ -313,8 +313,8 @@
           streetViewControl: false,
           scaleControl: true,
           mapTypeId: google.maps.MapTypeId.ROADMAP,
-          center: centerLatLng
-        }
+          center: centerLatLng,
+        };
 
         // Create map
         map = new google.maps.Map(document.getElementById('googlemap'), mapOptions);
@@ -324,7 +324,7 @@
           position: latLng,
           map: map,
           draggable: false,
-          animation: google.maps.Animation.DROP
+          animation: google.maps.Animation.DROP,
         });
       }
 
